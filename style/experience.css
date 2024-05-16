@@ -1,0 +1,29 @@
+.experience {
+    display: flex;
+    flex-direction: column;   
+    padding:var(--espacamento) var(--paddingPadrao) var(--espacamento) var(--paddingPadrao);    
+}
+
+.experience__section__title {
+    font-size: var(--sizeTitle);
+    font-weight: bolder;
+    padding-bottom: var(--espacamento);
+    text-align: center;    
+}
+
+.experience__box {
+    display: flex;
+    gap:2rem;
+}
+
+.experience__img {
+    max-width: 60%;
+    height: auto;
+}
+
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}

@@ -1,0 +1,22 @@
+.about {
+    display:flex;    
+    padding: var(--paddingPadrao);    
+    background-color: var(--cor--3);
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;    
+    line-height: 1.5em;
+}
+
+.about__title {
+    font-size: var(--sizeTitle);
+    font-weight: bold;
+    padding-bottom:var(--espacamento);
+}
+
+.about__paragraph {
+    text-align: justify;
+    width: 65%;        
+}

@@ -1,0 +1,87 @@
+@import url("./reset.css");
+@import url("./menu.css");
+@import url("./title.css");
+@import url("./about.css");
+@import url("./skills.css");
+@import url("./hobbies.css");
+@import url("./academic.css");
+@import url("./experience.css");
+@import url("./formcontato.css");
+@import url("./footer.css");
+
+:root{
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    --cor--1: #a6a6a6;
+    --cor--2: #0d0d0d;
+    --cor--3: #262626;
+    --cor--4: #d9d9d9;
+    --cor--5: #727272;
+    --espacamento: 3%;
+    --paddingPadrao:7%;
+    --sizeTitle: 2rem;    
+}
+
+.all {
+    box-sizing: border-box;    
+    background-color: var(--cor--2);
+    color: var(--cor--4);
+    font-family: 'Raleway';    
+    line-height: 1;
+    overflow-x:hidden;    
+    width: 100%;
+}
+
+
+a{
+    color: var(--cor--4);
+}
+
+
+
+
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+@media (min-width: 1050px){
+    
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menu */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Experiências acadêmicas*/
+
+/*Expeirência profissional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sessão sobre*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formação Acadêmica*/
+
+/*Experiência Profissional*/
+
+/*Contato*/
+
+/*Footer*/
+}

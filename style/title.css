@@ -1,0 +1,45 @@
+.title__div{    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: var(--paddingPadrao);
+    padding-left: var(--paddingPadrao);
+    padding-top: var(--espacamento);
+    padding-bottom:var(--espacamento);
+    gap: 1rem;    
+}
+
+.title__profile {    
+    border-radius: 50%;
+}
+
+.title__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title__bio {
+    font-size: 3.5rem;
+    line-height: 1em;
+    font-weight: bolder;
+    padding-bottom: var(--espacamento);
+}
+
+.title__subsection {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    padding-bottom: var(--espacamento);
+}
+
+.title__network {
+    display: flex;
+    gap: 5rem;
+}
+
+.title__network__item {
+    :hover {
+        font-size: 1.25rem;
+        font-weight: bolder;
+        color:#727272;
+    }    
+}

@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: var(--paddingPadrao);
+    padding-left: var(--paddingPadrao);
+    padding-top: var(--espacamento);
+    padding-bottom:var(--espacamento);
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.menu > header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu__list {
+    display: flex;
+    gap:1rem;
+    :hover {
+        font-size: 1.25rem;
+        font-weight: bolder;
+        color:var(--cor--5);
+    }
+}
