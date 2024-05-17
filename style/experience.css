@@ -1,7 +1,7 @@
 .experience {
     display: flex;
     flex-direction: column;   
-    padding:var(--espacamento) var(--paddingPadrao) var(--espacamento) var(--paddingPadrao);    
+    padding:var(--espacamento) var(--paddingPadrao) 0 var(--paddingPadrao);
 }
 
 .experience__section__title {
@@ -13,17 +13,53 @@
 
 .experience__box {
     display: flex;
-    gap:2rem;
+    justify-content: space-between;
 }
 
 .experience__img {
     max-width: 60%;
     height: auto;
+    padding-bottom:2rem;
 }
 
-.experience__info {
+.experience__info {    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    line-height: 2rem;
 }
+
+.experience__info > h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.experiencia__botao--repo {
+    width: 10vw;
+    height: 8vh;
+    border-radius: .25rem;
+    font-size: 1rem;
+    font-weight: bolder;    
+    background-color: var(--cor--4);
+}
+
+.experiencia__botao--demo {
+    width: 10vw;
+    height: 8vh;
+    border-radius: .25rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: var(--cor--1);
+    background-color: var(--cor--3);
+}
+
+
+
+.experience__box:nth-child(odd) {
+    flex-direction: row;
+}
+
+.experience__box:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
