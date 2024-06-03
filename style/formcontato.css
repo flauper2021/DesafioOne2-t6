@@ -24,10 +24,6 @@
     padding-bottom: var(--paddingPadrao);    
 }
 
-.formcontato__subtext {
-    
-}
-
 .formcontato__form {
     display: flex;
     flex-direction: column;
@@ -51,6 +47,9 @@
     width: 12vw;
     height: 8vh;
     background-color: var(--cor--1);
+    font-size: 1rem;
+    font-weight: bolder;
+    color: var(--cor--3);
 }
 
 

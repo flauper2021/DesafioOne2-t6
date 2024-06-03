@@ -13,7 +13,8 @@
 
 .experience__box {
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
+    gap:6%;
 }
 
 .experience__img {
@@ -35,8 +36,8 @@
 }
 
 .experiencia__botao--repo {
-    width: 10vw;
-    height: 8vh;
+    width: 116px;
+    height: 51px;
     border-radius: .25rem;
     font-size: 1rem;
     font-weight: bolder;    
@@ -44,8 +45,8 @@
 }
 
 .experiencia__botao--demo {
-    width: 10vw;
-    height: 8vh;
+    width: 116px;
+    height: 51px;
     border-radius: .25rem;
     font-size: 1rem;
     font-weight: bolder;

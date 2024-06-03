@@ -41,7 +41,7 @@
         <!-- Sessão de Title -->
             <section class="title">
                 <div class="title__div">
-                    <img class="title__profile" src="assets\profile.jpg">
+                    <img class="title__profile" src="assets/profile.jpg">                   
                     <div class="title__container" id="sobremim">
                         <h2 class="title__bio">Olá, meu nome é Mauricio Alejandro Juica Arriagada e estudo Front End na Alura</h2>
                         <h3 class="title__subsection">Eu sou estudante em Sistemas de Informação na Estácio de Ribeirão Preto e atualmente estou participando no projeto Oracle T6-ONE na Alura.</h3>
@@ -312,13 +312,13 @@
                         <h2 class="formcontato__title">Contato</h2>
                         <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
                         <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
-                        <form class="formcontato__form">
+                        <form class="formcontato__form" id="formContato">
                             <input class="formcontato__input" type="text" id="nome" placeholder="Nome:">
-                            <input class="formcontato__input" type="email" id="email
-                            " placeholder="Email:">
+                            <input class="formcontato__input" type="email" id="email" placeholder="Email:">
                             <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto:">
                             <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem:"></textarea>
-                            <button class="formcontato__botao">Enviar mensagem</button>
+                            <button class="formcontato__botao" type= "submit">Enviar mensagem</button>
+                            <p id="mensagemErro" class="error"></p>
                         </form>
                     </div>
                 </div>
@@ -334,6 +334,6 @@
         </div>
 
         <!-- Script Linkado do seu documento de JavaScript -->
-        <script src="validate.js"></script>
+        <script src="./script/validate.js"></script>
     </body>
 </html>
